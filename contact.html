@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <style> 
+ header, body {
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1528484593357-bb6777320d96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+      
+
+body {
+  margin: 0;
+  font-family: Century Gothic, Helvetica;
+  color: #D0BDF0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #D0BDF0; 
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+    justify-content: center; 
+
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #AF9FC9; 
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+table {
+  margin: 0 auto; 
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+    margin: 0 auto; 
+
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #AF9FC9; 
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+}
+</style>
+    <title>My Webshop - Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Webshop</h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 style="text-align: center;">Contact Ons</h2>
+      <table>
+  <tr>
+    <th>Dag</th>
+    <th>Uren Open</th>
+  </tr>
+  <tr>
+    <td>Maadag</td>
+    <td>9:00  - 17:00 </td>
+  </tr>
+  <tr>
+    <td>Dinsdag</td>
+    <td>9:00  - 17:00 </td>
+  </tr>
+  <tr>
+    <td>Woensdag</td>
+    <td>9:00  - 17:00 </td>
+  </tr>
+  <tr>
+    <td>Donderdag</td>
+    <td>9:00  - 17:00 </td>
+  </tr>
+  <tr>
+    <td>Vrijdag</td>
+    <td>9:00  - 17:00 </td>
+  </tr>
+  <tr>
+    <td>Zaterdag</td>
+    <td>Gesloten</td>
+  </tr>
+  <tr>
+    <td>Zondag</td>
+    <td>Gesloten</td>
+  </tr>
+</table>
+
+      <form>
+        <label for="Naam">Naam:</label><br>
+        <input type="text" id="Naam" name="Naam"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="Telefoonnummer">Telefoonnummer:</label><br>
+        <input type="text" id="Telefoonnummer" name="Telefoonnummer"><br>
+        <label for="Bericht">Bericht:</label><br>
+        <textarea id="Bericht" name="Bericht"></textarea><br>
+        <input type="submit" value="Verstuur">
+      </form>
+    </main>
+   
+  </body>
+</html>
